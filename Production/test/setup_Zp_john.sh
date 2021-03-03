@@ -157,7 +157,7 @@ if [[ "$CMSSWVER" == "CMSSW_10_2_"* ]]; then
 	git cms-merge-topic -u $ACCESS_CMSSW TreeMaker:BoostedDoubleSVTaggerV4-WithWeightFiles-v1_from-CMSSW_10_2_7
 	git cms-merge-topic -u $ACCESS_CMSSW TreeMaker:storeJERFactorIndex10220
 	git cms-merge-topic -u $ACCESS_CMSSW TreeMaker:AddJetAxis1_1027
-	git cms-merge-topic -u $ACCESS_CMSSW TreeMaker:DeepAK8v2_10221
+	#git cms-merge-topic -u $ACCESS_CMSSW TreeMaker:DeepAK8v2_10221 -- i don't think this is needed, it seems correct in CMSSW>10_2_24, TODO TODO : double check against nano
 fi
 
 # outside repositories
