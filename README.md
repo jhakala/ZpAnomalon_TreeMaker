@@ -22,7 +22,7 @@ The following installation instructions assume the user wants to process 2016, 2
 ```
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 wget https://raw.githubusercontent.com/jhakala/ZpAnomalon_TreeMaker/particlenet/Production/test/setup_Zp_john.sh
-source setup_Zp.sh
+source setup_Zp_john.sh
 ```
 
 The script [setup.sh](./setup.sh) has options to allow installing a different fork or branch of TreeMaker
