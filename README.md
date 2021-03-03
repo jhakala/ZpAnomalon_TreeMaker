@@ -20,7 +20,7 @@
 The following installation instructions assume the user wants to process 2016, 2017, or 2018 miniAOD.
 
 ```
-wget https://raw.githubusercontent.com/gracecummings/ZpAnomalon_TreeMaker/Run2017_gec_postmerge/Production/test/setup_Zp.sh
+wget https://raw.githubusercontent.com/jhakala/ZpAnomalon_TreeMaker/particlenet/Production/test/setup_Zp_john.sh
 source setup_Zp.sh
 ```
 
